@@ -1,3 +1,6 @@
+// import { create } from "domain";
+// import { create } from "domain";
+
 // STEP 1: Create a header component.
 // -----------------------
 // Using a function create the component you see below:
@@ -10,7 +13,7 @@
 // And add it to the DOM in the .header-container component
 
 function Header() {
-    
+
     const parent = document.querySelector(".header-container")
     const headerDiv = createAndAppend("div", parent, {class: "header"})
 
@@ -19,7 +22,6 @@ function Header() {
     createAndAppend("span", headerDiv, {class: "temp", textContent: "98°"})
 
     return headerDiv
-
 }
 
 Header()
